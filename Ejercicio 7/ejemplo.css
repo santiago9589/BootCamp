@@ -1,0 +1,70 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-size: cover;
+    background-image: url(seagulls-g3172c0ad2_640.jpg);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.container-form{
+    padding: 20px;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+.container-form h2{
+    margin: 20px;
+    padding: 5px;
+
+}
+
+.input-form__field{
+    margin: 5px;
+}
+
+.input-form__button--button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+label{
+  font-weight: bold;
+}
+
+
+input#email{
+    background-repeat: no-repeat;
+    background-image: url(check_circle_FILL1_wght100_GRAD0_opsz24.png);
+    left: 0;
+    background-position: 3px;
+    padding-left: 35px;
+}
+
+input#password{
+    background-repeat: no-repeat;
+    background-image: url(check_circle_FILL1_wght100_GRAD0_opsz24.png);
+    left: 0;
+    background-position: 3px;
+    padding-left: 35px;
+}
