@@ -1,0 +1,17 @@
+.box2{
+    display: none;
+}
+
+@media screen AND (max-width: 600px) {
+
+    .box {
+        display: none;
+    }
+    
+    .box2{
+       display: block;
+    }
+    
+    
+    
+}
